@@ -1,0 +1,59 @@
+body {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 20px;
+  text-align: center;
+  box-sizing: border-box;
+  width: 100%;
+  max-width: 30em;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: rgb(237, 245, 242);
+  color: aliceblue;
+}
+
+#myBox {
+  width: 100%;
+  box-sizing: border-box;
+  border: solid 5px #969d96;
+  height: 380px;
+  border: 5%;
+  padding-top: 85px;
+  margin-top: 90px;
+  background-color: bisque;
+}
+
+#time {
+  font-size: 65px;
+  margin-top: -65px;
+}
+
+h3 {
+  color: black;
+  margin-top: -20px;
+  margin-bottom: 10px;
+}
+
+#alarmHrs,
+#alarmMins,
+#alarmSecs,
+#mySelect {
+  width: 100px;
+  padding: 10px 20px;
+  display: inline-block;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+button {
+  width: 100px;
+  background-color: rgb(54, 31, 2);
+  color: rgb(224, 216, 199);
+  padding: 14px 10px;
+  margin: 10px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+button:hover {
+  background-color: azure;
+}
